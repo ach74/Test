@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="preguntas.xsd">
+    	<question id="pregunta1">
+			<type>text</type>
+				<title>¿Cuántos títulos del mundo ha conseguido Rossi de manera consecutiva?</title>
+			<answer>9</answer>
+    	</question>
+
+    	<question id="pregunta2">
+			<type>text</type>
+				<title>¿Cuántas marcas de neumáticos hay en MotoGP?</title>
+			<answer>3</answer>
+    	</question>
+
+    	<question id="pregunta3">
+			<type>select</type>
+				<title>¿Cuál es la edad mínima para participar en el Mundial de Moto2?</title>
+					<option>14</option>
+					<option>16</option>
+					<option>18</option>
+			<answer>2</answer>
+    	</question>
+
+    	<question id="pregunta4">
+			<type>select</type>
+				<title>¿Quién fue el campeón del mundo de 125 cc en 2008?</title>
+					<option>Di Meglio</option>
+					<option>Talmacsi</option>
+					<option>Corsi</option>
+			<answer>1</answer>
+    	</question>
+
+        <question id="pregunta5">
+			<type>multiple</type>
+				<title>¿Cuales son tipos de casco?</title>
+					<option>Casco integral</option>
+					<option>Cascos jet</option>
+					<option>Cascos completo</option>
+					<option>Cascos naket</option>
+			<answer>1</answer>
+			<answer>2</answer>
+    	</question>
+
+        <question id="pregunta6">
+			<type>multiple</type>
+				<title>¿Cuantas ruesdas tiene una moto?</title>
+					<option>2</option>
+					<option>4</option>
+					<option>3</option>
+					<option>1.5</option>
+			<answer>3</answer>
+			<answer>1</answer>
+    	</question>
+
+    	<question id="pregunta7">
+			<type>checkbox</type>
+				<title>¿Cuál son marcas de motos?</title>
+					<option>Keeway</option>
+					<option>Cafe-Racer</option>
+					<option>Naked</option>
+					<option>KTM</option>
+			<answer>0</answer>
+			<answer>4</answer>
+    	</question>
+	
+	    <question id="pregunta8">
+			<type>checkbox</type>
+				<title>¿Quién es el piloto que más años tiene en MotoGP?</title>
+					<option>Jarama</option>
+					<option>Circuito de Jerez</option>
+					<option>Termas de Río Azul</option>
+					<option>Capirossi</option>
+			<answer>0</answer>
+			<answer>2</answer>
+   		</question>
+
+    	<question id="pregunta9">
+			<type>radio</type>
+				<title>¿Cuántos pilotos españoles participan en Moto2 en 2010?</title>
+					<option>7</option>
+					<option>9</option>
+					<option>8</option>
+					<option>10</option>
+				<answer>4</answer>
+    	</question>
+
+    	<question id="pregunta10">
+			<type>radio</type>
+				<title>Quién de estos pilotos debuta en MotoGP esta temporada?</title>
+					<option>Barberá</option>
+					<option>Kallio</option>
+					<option>Dovizioso</option>
+					<option>De Puniet</option>
+				<answer>1</answer>
+    	</question>
+
+</questions>

@@ -1,0 +1,68 @@
+body{
+    background-image: url("../img/fondo-examen.jpg");
+    height: 100%;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7); 
+    font-family: Arial, Hervetica, sams-serif;
+    position: fixed;
+    z-index: 1;
+
+}
+ul, ol{
+    list-style: none;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav > li { 
+float: left; }
+
+.nav li a:hover{
+    background-color: #434343;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: block;
+}
+
+#home{
+    z-index: 0;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255); 
+    width: 750px;
+    margin: auto;
+    top: 50px;
+    padding-bottom: 20px;
+}
+
+.imgPrs{
+    margin-left: 150px;
+    padding: auto;
+    width: 450px;
+    height: auto;
+}

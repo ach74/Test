@@ -1,0 +1,122 @@
+{
+  "question": [
+    {
+      "-id": "pregunta1",
+      "type": "text",
+      "title": "¿Cuántos títulos del mundo ha conseguido Rossi de manera consecutiva?",
+      "answer": "9"
+    },
+    {
+      "-id": "pregunta2",
+      "type": "text",
+      "title": "¿Cuántas marcas de neumáticos hay en MotoGP?",
+      "answer": "3"
+    },
+    {
+      "-id": "pregunta3",
+      "type": "select",
+      "title": "¿Cuál es la edad mínima para participar en el Mundial de Moto2?",
+      "option": [
+        "14",
+        "16",
+        "18"
+      ],
+      "answer": "2"
+    },
+    {
+      "-id": "pregunta4",
+      "type": "select",
+      "title": "¿Quién fue el campeón del mundo de 125 cc en 2008?",
+      "option": [
+        "Di Meglio",
+        "Talmacsi",
+        "Corsi"
+      ],
+      "answer": "1"
+    },
+    {
+      "-id": "pregunta5",
+      "type": "select multiple",
+      "title": "¿Cuales son tipos de casco?",
+      "option": [
+        "Casco integral",
+        "Cascos jet",
+        "Cascos completo",
+        "Cascos naket"
+      ],
+      "answer": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "-id": "pregunta6",
+      "type": "select multiple",
+      "title": "¿Cuantas ruesdas tiene una moto?",
+      "option": [
+        "2",
+        "4",
+        "3",
+        "1.5"
+      ],
+      "answer": [
+        "3",
+        "1"
+      ]
+    },
+    {
+      "-id": "pregunta7",
+      "type": "checkbox",
+      "title": "¿Cuál son marcas de motos?",
+      "option": [
+        "Keeway",
+        "Cafe-Racer",
+        "Naked",
+        "KTM"
+      ],
+      "answer": [
+        "0",
+        "4"
+      ]
+    },
+    {
+      "-id": "pregunta8",
+      "type": "checkbox",
+      "title": "¿Quién es el piloto que más años tiene en MotoGP?",
+      "option": [
+        "Jarama",
+        "Circuito de Jerez",
+        "Termas de Río Azul",
+        "Capirossi"
+      ],
+      "answer": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "-id": "pregunta9",
+      "type": "radio",
+      "title": "¿Cuántos pilotos españoles participan en Moto2 en 2010?",
+      "option": [
+        "7",
+        "9",
+        "8",
+        "10"
+      ],
+      "answer": "4"
+    },
+    {
+      "-id": "pregunta10",
+      "type": "radio",
+      "title": "Quién de estos pilotos debuta en MotoGP esta temporada?",
+      "option": [
+        "Barberá",
+        "Kallio",
+        "Dovizioso",
+        "De Puniet"
+      ],
+      "answer": "1"
+    }
+  ]
+}
