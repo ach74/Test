@@ -1,56 +1,63 @@
 window.onload = function(){
-	document.getElementById("Opc1").onclick=function(){
-		Opc1();
-	}
-	document.getElementById("Opc2").onclick=function(){
-		Opc2();
-	}
-	document.getElementById("Opc3").onclick=function(){
-		Opc3();
-	}
-	document.getElementById("Opc4").onclick=function(){
-		Opc4();
+
+	document.getElementById("BotonHome").onclick=function(){
+		MostrarHome();
 	}
 
-	document.getElementById("StartExamen").onclick=function(){
-		direccion();
+	document.getElementById("BotonCircuito").onclick=function(){
+		MostrarCircuito();
 	}
 
+	document.getElementById("BotonQuedadas").onclick=function(){
+		MostrarQuedadas();
+	}
 
+	document.getElementById("BotonGaleria").onclick=function(){
+		MostrarGaleria();
+	}
 
+	document.getElementById("BotonAcerca").onclick=function(){
+		MostrarAcerca();
+	}
 }
 
-function Opc1(){
-	document.getElementById("Informacion").style.display="block";
-	document.getElementById("Ubicacion").style.display="none";
-	document.getElementById("test").style.display="none";
-	document.getElementById("fotos").style.display="none";
+function MostrarHome(){
+	document.getElementById("home").style.display="block";
+	document.getElementById("circuito").style.display="none";
+	document.getElementById("quedadas").style.display="none";
+	document.getElementById("galeria").style.display="none";
+	document.getElementById("acerca").style.display="none";
 }
 
-function Opc2(){
-	document.getElementById("Ubicacion").style.display="block";
-	document.getElementById("Informacion").style.display="none";
-	document.getElementById("test").style.display="none";
-	document.getElementById("fotos").style.display="none";
-
+function MostrarCircuito(){
+	document.getElementById("circuito").style.display="block";
+	document.getElementById("home").style.display="none";
+	document.getElementById("quedadas").style.display="none";
+	document.getElementById("galeria").style.display="none";
+	document.getElementById("acerca").style.display="none";
 }
 
-function Opc3(){
-	document.getElementById("test").style.display="block";
-	document.getElementById("Informacion").style.display="none";
-	document.getElementById("Ubicacion").style.display="none";
-	document.getElementById("fotos").style.display="none";
+function MostrarQuedadas(){
+	document.getElementById("quedadas").style.display="block";
+	document.getElementById("circuito").style.display="none";
+	document.getElementById("home").style.display="none";
+	document.getElementById("galeria").style.display="none";
+	document.getElementById("localizacion").style.display="none";
+	document.getElementById("acerca").style.display="none";
 }
 
-function Opc4(){
-	document.getElementById("fotos").style.display="block";
-	document.getElementById("Informacion").style.display="none";
-	document.getElementById("Ubicacion").style.display="none";
-	document.getElementById("test").style.display="none";
+function MostrarGaleria(){
+	document.getElementById("galeria").style.display="block";
+	document.getElementById("home").style.display="none";
+	document.getElementById("quedadas").style.display="none";
+	document.getElementById("circuito").style.display="none";
+	document.getElementById("acerca").style.display="none";
 }
 
-
-
-function direccion(){
-	location.href='exam.html';
+function MostrarAcerca(){
+	document.getElementById("acerca").style.display="block";
+	document.getElementById("home").style.display="none";
+	document.getElementById("quedadas").style.display="none";
+	document.getElementById("galeria").style.display="none";
+	document.getElementById("circuito").style.display="none";
 }
