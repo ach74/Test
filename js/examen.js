@@ -18,7 +18,7 @@ window.onload = function(){
 }
 
 // fichoro xml que está en el servidor rawgit
-var url="https://cdn.rawgit.com/ach74/PaginaWeb/f8b5ff0c/json/json.json";
+var url="https://cdn.rawgit.com/ach74/Test/397b7707/json/json.json";
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
@@ -245,8 +245,6 @@ function corregirText(){
 	for(a=6;a<8;a++){
 		var escorrecta=[];
 		var nombreCheckbox;
-		var mal=false;
-
 		if (a==6) {
 			nombreCheckbox=formElement.seis;
 		}else{
@@ -256,9 +254,7 @@ function corregirText(){
 			if (nombreCheckbox[b].checked) {
 				escorrecta[b]=false;
 				for(c=0;c<respuestasCheckbox[a].length;c++){
-					if (b==respuestasCheckbox[a][c]) {
-						escorrecta[b]=true;
-					}
+					if ((b)==respuestasCheckbox[a][c]) escorrecta[b]=true;
 				}
 				if(escorrecta[b]==true){
 					alert("bien");
