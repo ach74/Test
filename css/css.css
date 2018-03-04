@@ -124,7 +124,9 @@ ul, ol{
         top: 50px;
         padding-bottom: 20px;
     }
-
+    h3{
+        margin-bottom: 20px;
+    }
     /*Dar formato y estilo a los check box*/
     .containerBox{
         display: block;

@@ -11,14 +11,19 @@ window.onload = function(){
 	formElement=document.getElementById("formulario");
 	document.getElementById("corregir").onclick=function(){
 		
-		corregirText();
-		MostrarNota();
+		if (comprobar()==true) {
+			if (confirm("¿Quieres saber su nota final?")) {
+				corregirTest();
+				MostrarNota();
+			}
+
+		}
 		
 	};
 }
 
 // fichoro xml que está en el servidor rawgit
-var url="https://cdn.rawgit.com/ach74/Test/9719e97f/json/json.json";
+var url="https://cdn.rawgit.com/ach74/Test/34dc017e/json/json.json";
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
@@ -164,9 +169,7 @@ function comprobar(){
 			return false;
 		}
 	}
-	
-
-
+	//Comprovar Check
 	for (a = 6; a < 8; a++){
 		var ck=false;
 		var nombre;
@@ -186,6 +189,7 @@ function comprobar(){
 			return false;
 		}
 	}
+	//Comprobar Radio
 	for ( a = 8;a<10;a++){
 
 		var nombreRadio=null;
@@ -202,10 +206,12 @@ function comprobar(){
 		}   
 	}
 
+	return true;
+
 }
 
-function corregirText(){
-	/*for(a=0;a<2;a++){
+function corregirTest(){
+	for(a=0;a<2;a++){
 		var text = formElement.elements[a].value;
 		if (text.toLowerCase()==respuestaText[a]) {
 			notaFinal=notaFinal;
@@ -263,7 +269,7 @@ function corregirText(){
 				}
 			}
 		}
-	}*/
+	}
 
 	for(a=8;a<10;a++){
 		var nombreRadio;
@@ -272,17 +278,12 @@ function corregirText(){
 		}else{
 			nombreRadio=formElement.diez;
 		}
-		if (nombreRadio.value==respuestaRadio[a]) {
+		if ((nombreRadio.value-1)==respuestaRadio[a]) {
 			notaFinal = notaFinal;
 		}else{
 			notaFinal = notaFinal - 1;
 		}
 	}
-
-
-
-
-
 }
 
 
