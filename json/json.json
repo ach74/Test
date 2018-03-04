@@ -104,17 +104,17 @@
         "8",
         "10"
       ],
-      "answer": "4"
+      "answer": "3"
     },
     {
       "-id": "pregunta10",
       "type": "radio",
-      "title": "Quién de estos pilotos debuta en MotoGP esta temporada?",
+      "title": "¿Cual es el mejor libro para un motero?",
       "option": [
-        "Barberá",
-        "Kallio",
-        "Dovizioso",
-        "De Puniet"
+        "Los viajes de Júpiter",
+        "La biblia de las curvas",
+        "Normativa y Legislación de trafico",
+        "Busca a Wally"
       ],
       "answer": "1"
     }

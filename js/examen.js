@@ -18,7 +18,7 @@ window.onload = function(){
 }
 
 // fichoro xml que está en el servidor rawgit
-var url="https://cdn.rawgit.com/ach74/Test/397b7707/json/json.json";
+var url="https://cdn.rawgit.com/ach74/Test/9719e97f/json/json.json";
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
@@ -240,7 +240,7 @@ function corregirText(){
 				}
 			}
 		} 
-	}*/
+	}
 
 	for(a=6;a<8;a++){
 		var escorrecta=[];
@@ -257,13 +257,28 @@ function corregirText(){
 					if ((b)==respuestasCheckbox[a][c]) escorrecta[b]=true;
 				}
 				if(escorrecta[b]==true){
-					alert("bien");
+					notaFinal = notaFinal;
 				}else{
-					alert("mal");
+					notaFinal = notaFinal - (1/respuestasCheckbox[a].length);
 				}
 			}
 		}
+	}*/
+
+	for(a=8;a<10;a++){
+		var nombreRadio;
+		if (a==8) {
+			nombreRadio=formElement.nueve;
+		}else{
+			nombreRadio=formElement.diez;
+		}
+		if (nombreRadio.value==respuestaRadio[a]) {
+			notaFinal = notaFinal;
+		}else{
+			notaFinal = notaFinal - 1;
+		}
 	}
+
 
 
 
