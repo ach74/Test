@@ -82,11 +82,11 @@
     {
       "-id": "pregunta8",
       "type": "checkbox",
-      "title": "¿Quién es el piloto que más años tiene en MotoGP?",
+      "title": "¿Que circuitos son de España?",
       "option": [
         "Jarama",
-        "Circuito de Jerez",
         "Termas de Río Azul",
+        "Circuito de Jerez",
         "Capirossi"
       ],
       "answer": [

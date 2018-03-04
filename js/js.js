@@ -19,6 +19,7 @@ window.onload = function(){
 	document.getElementById("BotonAcerca").onclick=function(){
 		MostrarAcerca();
 	}
+
 }
 
 function MostrarHome(){
@@ -61,3 +62,4 @@ function MostrarAcerca(){
 	document.getElementById("galeria").style.display="none";
 	document.getElementById("circuito").style.display="none";
 }
+
