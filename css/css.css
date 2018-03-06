@@ -86,7 +86,6 @@ ul, ol{
 
     .imgPrs{
         margin-left: 150px;
-        padding: auto;
         width: 450px;
         height: auto;
     }
@@ -121,7 +120,7 @@ ul, ol{
         height: 25%;
         margin-left: 150px;
         border: 0;
-        
+
 
     }
     /*CSS para la pagina del formulario*/
@@ -290,11 +289,4 @@ ul, ol{
         .checkbox,.radio{
         margin-left: 15px;
     }
-    #StartExamen{
-        background-color: rgba(0, 0, 0, 0.5);
-        height: 50px;
-        width: 150px;
-        border-radius: 10px;
-        text-align: center;
-        display: 
-    }
+   
