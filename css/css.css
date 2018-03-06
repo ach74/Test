@@ -120,6 +120,9 @@ ul, ol{
         width: 60%;
         height: 25%;
         margin-left: 150px;
+        border: 0;
+        
+
     }
     /*CSS para la pagina del formulario*/
 
