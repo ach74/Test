@@ -5,7 +5,7 @@ var respuestasMultiple = [];
 var respuestaText = [];
 var respuestaRadio = [];
 var respuestasCheckbox = [];
-var notaFinal = 10;
+var notaFinal = 0;
 
 window.onload = function(){
 	formElement=document.getElementById("formulario");
@@ -215,18 +215,18 @@ function corregirTest(){
 	for(a=0;a<2;a++){
 		var text = formElement.elements[a].value;
 		if (text.toLowerCase()==respuestaText[a]) {
-			notaFinal=notaFinal;
+			notaFinal=notaFinal + 1;
 		}else{
-			notaFinal=notaFinal-1;
+			notaFinal=notaFinal;
 		}
 	}
 	// Corregir select
 	for(a=2;a<4;a++){
 		var sel = formElement.elements[a];
 		if ((sel.selectedIndex-1)==respuestaSelect[a]) {
-			notaFinal=notaFinal;
+			notaFinal=notaFinal + 1;
 		}else{
-			notaFinal=notaFinal-1;
+			notaFinal=notaFinal;
 		}
 	}
 	// Corregir select multiple
@@ -241,9 +241,9 @@ function corregirTest(){
 					if ((b)==respuestasMultiple[a][c]) escorrecta[b]=true;
 				}
 				if (escorrecta[b]==true) {
-					notaFinal = notaFinal;
+					notaFinal = notaFinal + 0.5;
 				} else {
-					notaFinal = notaFinal - (1/respuestasMultiple[a].length);
+					notaFinal = notaFinal;
 				}
 			}
 		} 
@@ -264,9 +264,9 @@ function corregirTest(){
 					if ((b)==respuestasCheckbox[a][c]) escorrecta[b]=true;
 				}
 				if(escorrecta[b]==true){
-					notaFinal = notaFinal;
+					notaFinal = notaFinal + 0.5;
 				}else{
-					notaFinal = notaFinal - (1/respuestasCheckbox[a].length);
+					notaFinal = notaFinal;
 				}
 			}
 		}
@@ -281,9 +281,9 @@ function corregirTest(){
 			nombreRadio=formElement.diez;
 		}
 		if ((nombreRadio.value-1)==respuestaRadio[a]) {
-			notaFinal = notaFinal;
+			notaFinal = notaFinal + 1;
 		}else{
-			notaFinal = notaFinal - 1;
+			notaFinal = notaFinal;
 		}
 	}
 }
