@@ -211,6 +211,7 @@ function comprobar(){
 }
 
 function corregirTest(){
+	//Corregir text con valores dentro de la array
 	for(a=0;a<2;a++){
 		var text = formElement.elements[a].value;
 		if (text.toLowerCase()==respuestaText[a]) {
@@ -219,7 +220,7 @@ function corregirTest(){
 			notaFinal=notaFinal-1;
 		}
 	}
-
+	// Corregir select
 	for(a=2;a<4;a++){
 		var sel = formElement.elements[a];
 		if ((sel.selectedIndex-1)==respuestaSelect[a]) {
@@ -228,7 +229,7 @@ function corregirTest(){
 			notaFinal=notaFinal-1;
 		}
 	}
-
+	// Corregir select multiple
 	for(a=4;a<6;a++){
 		var sel = formElement.elements[a];
 		var escorrecta=[];
@@ -247,7 +248,7 @@ function corregirTest(){
 			}
 		} 
 	}
-
+	//Corregir Checkbox
 	for(a=6;a<8;a++){
 		var escorrecta=[];
 		var nombreCheckbox;
@@ -271,6 +272,7 @@ function corregirTest(){
 		}
 	}
 
+	//Corregir radio
 	for(a=8;a<10;a++){
 		var nombreRadio;
 		if (a==8) {
