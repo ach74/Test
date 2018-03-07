@@ -232,14 +232,14 @@ function corregirTest(){
 	for(a=4;a<6;a++){
 		var sel = formElement.elements[a];
 		var escorrecta=[];
-		for(i=1;i<(sel.length);i++){
-			var opt=sel.options[i];
+		for(b=1;b<(sel.length);b++){
+			var opt=sel.options[b];
 			if(opt.selected==true){
-				escorrecta[i]=false; 
-				for (j = 0; j < respuestasMultiple[a].length; j++) {
-					if ((i)==respuestasMultiple[a][j]) escorrecta[i]=true;
+				escorrecta[b]=false; 
+				for (c = 0; c < respuestasMultiple[a].length; c++) {
+					if ((b)==respuestasMultiple[a][c]) escorrecta[b]=true;
 				}
-				if (escorrecta[i]==true) {
+				if (escorrecta[b]==true) {
 					notaFinal = notaFinal;
 				} else {
 					notaFinal = notaFinal - (1/respuestasMultiple[a].length);
