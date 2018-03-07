@@ -67,7 +67,7 @@
     {
       "-id": "pregunta7",
       "type": "checkbox",
-      "title": "¿Cuál son marcas de motos?",
+      "title": "¿Cuales son marcas de motos?",
       "option": [
         "Keeway",
         "Cafe-Racer",
