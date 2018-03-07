@@ -42,5 +42,6 @@ Las respuestas correctas del test son las siguientes:
 - Orientación para el diseño de la pagina web: https://www.w3schools.com/w3css/w3css_templates.asp
 - Para codificar la página web y todo lo relacionado he usado SublimeText-3: https://www.sublimetext.com/
 - Compresor de imagen online: http://compressjpeg.com/es/
+- Creacion de README : https://stackedit.io/app
 
 >En esta mismo proyecto hay una ramificación con todo el código minimificado.
