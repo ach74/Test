@@ -1,4 +1,4 @@
-#Página Web con un formulario XML
+# Página Web con un formulario XML
 
 **Autor**: Achraf El Ouakili El Merouani
 
@@ -38,7 +38,7 @@ Las respuestas correctas del test son las siguientes:
  9. Respuesta de la pregunta: 10
  10. Respuesta de la pregunta: La biblia de las curvas
 
-##Recursos utilizados:
+## Recursos utilizados:
 - Colores para el diseño: https://htmlcolorcodes.com/es/
 - Orientación para el diseño de la pagina web: https://www.w3schools.com/w3css/w3css_templates.asp
 - Para codificar la página web y todo lo relacionado he usado SublimeText-3: https://www.sublimetext.com/
