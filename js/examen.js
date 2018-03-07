@@ -214,7 +214,7 @@ function corregirTest(){
 	//Corregir text con valores dentro de la array
 	for(a=0;a<2;a++){
 		var text = formElement.elements[a].value;
-		if (text.toLowerCase()==respuestaText[a]) {
+		if (text==respuestaText[a]) {
 			notaFinal=notaFinal + 1;
 		}else{
 			notaFinal=notaFinal;
